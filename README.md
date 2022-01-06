@@ -1,1 +1,1 @@
-# Metriques-classification
+# Les principales métriques en classification
