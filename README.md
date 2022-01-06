@@ -40,3 +40,14 @@ Dans certains cas, il est intéressant d'avoir une bonne précision. En effet, v
 
 Dans d'autres cas, il est également préférable de prédire davantage de cas positifs. En effet, dans le cas de la détection de cancer, vous ne souhaitez pas passer à côté de cas positifs. Il vaut prédire davantage d'individus au risque de se tromper en demandant aux faux positifs des examens complémentaires.
 
+**1-3 Le rappel**
+
+Cet indicateur permet de savoir le nombre de bien classés parmi les individus réellement positifs.
+
+```markdown
+Rappel = (TP) / (TP + FN)
+```
+
+Dans le cas où vous souhaitez détecter si une personne a un cancer, vous voulez détecter la maladie même si vous n'êtes pas sûr. Le rappel vaut 1 si toute votre population est prédite positive.
+
+Ainsi, vous voyez l'intérêt de trouver un compromis entre la précision et le rappel.
