@@ -51,3 +51,18 @@ Rappel = (TP) / (TP + FN)
 Dans le cas où vous souhaitez détecter si une personne a un cancer, vous voulez détecter la maladie même si vous n'êtes pas sûr. Le rappel vaut 1 si toute votre population est prédite positive.
 
 Ainsi, vous voyez l'intérêt de trouver un compromis entre la précision et le rappel.
+
+**2- Le F1 score**
+
+Lorsque vous souhaitez un modèle avec à la fois un bon rappel et une bonne précision, il est recommandé d'utiliser le F1 Score. Cette métrique permet d'avoir un équilibre entre la précision et le rappel.
+
+Si votre rappel ou précision est faible, votre F1 score sera faible.
+
+Exemple d'utilisation du F1 score : Si vous êtes un policier et que vous devez attraper des criminels, vous voulez sûr que l'individu est un criminel (Précision) et vous voulez attraper le plus de criminels possible (Rappel). Le F1 score permet de trouver un équilibre entre ces deux métriques.
+
+Un des inconvénients du F1 score est qu'il accorde le même poids au rappel et à la précision. Parfois, vous souhaiterez peut-être avoir davantage de rappel ou de précision.
+
+Pour palier à cet inconvénient,vous pouvez créer un F1 score pondéré de la manière ci-dessous :
+<p align="center">
+  <img src="/images/matrice confusion.png" />
+</p>
