@@ -66,3 +66,5 @@ Pour palier à cet inconvénient,vous pouvez créer un F1 score pondéré de la 
 <p align="center">
   <img src="/images/f1_pondere.PNG" />
 </p>
+
+Avec Beta compris entre 0 et 1. Ici, vous accorder Beta fois plus d'importance au rappel qu'à la précision.
