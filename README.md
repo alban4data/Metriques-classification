@@ -26,5 +26,17 @@ Par exemple, si nous prenons 100 individus à classer à un seuil de probabilit�
 TN = 88, FP = 2, FN = 8, TP = 2
 ```
 
-Vous voyez bien que votre accuracy est de 90%et pourtant le modèle ne parvient pas à bien prédire les positifs.
+Vous voyez bien que votre accuracy est de 90 %et pourtant le modèle ne parvient pas à bien prédire les positifs.
+
+**1-2 La précision**
+
+Cet indicateur permet de savoir le nombre de bien classés parmi les individus prédits positifs.
+
+```markdown
+Précision = (TP) / (TP + FP)
+```
+
+Dans certains cas, il est intéressant d'avoir une bonne précision. En effet, vous ne souhaitez pas que certains individus soient contactés à tort dans le cadre de campagnes marketing. De plus, cela coûte de l'argent à l'entreprise de se tromper.
+
+Dans d'autres cas, il est également préférable de prédire davantage de cas positifs. En effet, dans le cas de la détection de cancer, vous ne souhaitez pas passer à côté de cas positifs. Il vaut prédire davantage d'individus au risque de se tromper en demandant aux faux positifs des examens complémentaires.
 
