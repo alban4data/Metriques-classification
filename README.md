@@ -7,3 +7,24 @@ Lors de votre projet, un modèle de machine learning va être entraîné sur vot
 <p align="center">
   <img src="/images/matrice confusion.png" />
 </p>
+
+**1- L'accuracy, le rappel et la précision**
+
+**1-1 L'accuracy**
+
+L'accuracy est une métrique très souvent utilisé pour évaluer un modèle de machine learning dans le cadre d'un problème de classification binaire ou multi-classe.
+
+```markdown
+Accuracy = (TP + TN) / (TP + FP + FN + TN)
+```
+
+C'est une première métrique intéressante lorsque les modalités de la variable cible sont équilibrées. En effet, si vous avez 90% de 0 dans votre cible, vous aurez 90% d'accuracy. Cela ne signifie pas que votre modèle a de bonnes performances. 
+
+Par exemple, si nous prenons 100 individus à classer à un seuil de probabilité égal à.5 :
+
+```markdown
+TN = 88, FP = 2, FN = 8, TP = 2
+```
+
+Vous voyez bien que votre accuracy est de 90%et pourtant le modèle ne parvient pas à bien prédire les positifs.
+
