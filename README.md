@@ -64,5 +64,5 @@ Un des inconvénients du F1 score est qu'il accorde le même poids au rappel et 
 
 Pour palier à cet inconvénient,vous pouvez créer un F1 score pondéré de la manière ci-dessous :
 <p align="center">
-  <img src="/images/f1_pondere.png" />
+  <img src="/images/f1_pondere.PNG" />
 </p>
