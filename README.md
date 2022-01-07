@@ -78,3 +78,10 @@ Le F1 score est toujours simplement une moyenne harmonique de la précision et d
 
 La moyenne harmonique de N valeurs est le nombre dont l'inverse est la moyenne arithmétique des inverses des dites valeurs. C'est donc l'inverse de la moyenne arithmétique de l'inverse des termes. La moyenne harmonique permet de calculer des moyennes sur des fractions si le dénominateurs change.
 
+Il faut également retenir que lorsque F1 = 0.5, vous obtiendrez 
+```markdown
+2TP = FN +FP
+```
+Ainsi, lorsque deux individus sont bien classés, vous aurez deux individus mal classés.
+
+
