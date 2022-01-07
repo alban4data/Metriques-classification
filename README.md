@@ -68,3 +68,13 @@ Pour palier à cet inconvénient,vous pouvez créer un F1 score pondéré de la 
 </p>
 
 Avec Beta compris entre 0 et 1. Ici, vous accorder Beta fois plus d'importance au rappel qu'à la précision.
+
+Ainsi, le F1 score s'écrit de la manière suivante : 
+<p align="center">
+  <img src="/images/f1_score_calcul.PNG" />
+</p>
+
+Le F1 score est toujours simplement une moyenne harmonique de la précision et du rappel. On peut donc se demander le sens de cette moyenne harmonique. Pour expliquer, considérez par exemple, quelle est la moyenne de 30 mph et 40 mph est ? si vous conduisez pendant 1 heure à chaque vitesse, la vitesse moyenne sur les 2 heures est en effet la moyenne arithmétique, 35 mph. Cependant, si vous conduisez sur la même distance à chaque vitesse - disons 10 miles - alors la vitesse moyenne sur 20 miles est la moyenne harmonique de 30 et 40, environ 34,3 mph. La raison en est que pour que la moyenne soit valide, vous avez vraiment besoin que les valeurs soient dans les mêmes unités mises à l'échelle. Les miles par heure doivent être comparés sur le même nombre d'heures; pour comparer sur le même nombre de miles, vous devez plutôt faire la moyenne des heures par mile, ce qui est exactement ce que fait la moyenne harmonique.
+
+La moyenne harmonique de N valeurs est le nombre dont l'inverse est la moyenne arithmétique des inverses des dites valeurs. C'est donc l'inverse de la moyenne arithmétique de l'inverse des termes. La moyenne harmonique permet de calculer des moyennes sur des fractions si le dénominateurs change.
+
