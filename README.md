@@ -84,4 +84,24 @@ Il faut également retenir que lorsque F1 = 0.5, vous obtiendrez
 ```
 Ainsi, lorsque deux individus sont bien classés, vous aurez deux individus mal classés.
 
+**3- L'AUC (Area Under the Roc)**
+
+L'AUC correspond à l'aire sous la courbe ROC.
+
+Qu'est-ce que la courbe ROC ?
+
+A ce moment, vous avez obtenu les probabilités issues de votre modèle de machine learning.
+Vous pouvez représenter graphiquement à différents seuils de probabilité (en faisant varier le seuil de 0 à 1) la sensitivité (TPR) et (1-Sensitivité) (FPR) et vous obtiendrez la courbe ROC.
+
+La spécificité correspond à la formule suivante :
+```markdown
+Sensitivité = TPR = Rappel = TP / (TP + FN)
+```
+
+La spécificité correspond à la formule suivante :
+```markdown
+1 - Spécificité = FPR = FP / (TN + FP)
+```
+
+
 
