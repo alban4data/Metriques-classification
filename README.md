@@ -121,4 +121,8 @@ La formule s'écrit :
 </p>
 
 Un des avantages du MCC est qu'il prend en compte dans le calcul toutes les cellules de la matrice de confusion au numérateur.
+Pour illustrer le MCC, prenons l'exemple suivant :
 
+<p align="center">
+  <img src="/images/mcc_animaux.PNG" />
+</p>
