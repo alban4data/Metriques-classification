@@ -116,5 +116,7 @@ Il est préférable d'utiliser le F1 score dans le cadre de données déséquili
 Le MCC a des valeurs comprises entre -1 et +1 où -1 indique un très mauvais classifieur et +1 un parfait classifieur. Le MCC permet de quantifier les performances du modèle. Le MCC prend en compte les vrais et faux positifs et négatifs. On peut utiliser cette métrique même si les données sont déséquilibrées.
 
 La formule s'écrit :
-MCC = 
+<p align="center">
+  <img src="/images/mcc.PNG" />
+</p>
 
