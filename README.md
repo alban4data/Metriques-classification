@@ -103,5 +103,7 @@ La spécificité correspond à la formule suivante :
 1 - Spécificité = FPR = FP / (TN + FP)
 ```
 
+**3- L'AUC (Matthews Correlation Coefficient)**
+
 
 
