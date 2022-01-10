@@ -109,6 +109,7 @@ La spécificité correspond à la formule suivante :
 
 L'AUC est une métrique invariante contrairement au F1 score. En effet, l'AUC ne dépend pas du seuil de probabilité contrairement au F1 score.  
 L'AUC se base seulement sur des ratios par rapport aux valeurs réelles. Dans le monde réel, le F1 score est davantage utilisé car les échantillons positifs et négatifs peuvent être très inégaux. Il faut donc se poser la question de l'utilisation que l'on souhaite faire de la métrique. Chaque métrique a un usage différent. 
+Il est préférable d'utiliser le F1 score dans le cadre de données déséquilibrées. En effet, si vous avez 98% de négatifs dans votre population, votre taux de faux de faux positifs sera très faibles. Cependant, cela ne signifiera pas que votre modèle est un bon classifieur.
 
 **3- Le MCC (Matthews Correlation Coefficient)**
 
