@@ -104,7 +104,7 @@ La spécificité correspond à la formule suivante :
 ```
 
 <p align="center">
-  <img src="/images/f1_pondere.PNG" />
+  <img src="/images/roc_curve.PNG" />
 </p>
 
 **3- Le MCC (Matthews Correlation Coefficient)**
