@@ -127,6 +127,6 @@ Pour illustrer le MCC, prenons l'exemple suivant :
   <img src="/images/mcc_animaux.PNG" />
 </p>
 
-Le MCC vaut MMC = (18*1 - 3*2) / ((18+3)(18+2)(1+3)(1+2))^1/2 = 0.17
+Le MCC vaut MMC = (18 * 1 - 3 * 2) / ((18+3)(18+2)(1+3)(1+2))^1/2 = 0.17
 
 Ce résultat signie que la classe positive et la classe prédite sont faiblement corrélées. Pourtant l'accuracy vaut 0.79. Il est donc intéressant d'utiliser le MCC lorsque les classes sont déséquilibrées.
