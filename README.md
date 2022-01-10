@@ -120,3 +120,5 @@ La formule s'écrit :
   <img src="/images/mcc.PNG" />
 </p>
 
+Un des avantages du MCC est qu'il prend en compte dans le calcul toutes les cellules de la matrice de confusion au numérateur.
+
